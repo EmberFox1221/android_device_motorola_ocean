@@ -167,3 +167,5 @@ TW_HAS_EDL_MODE := true
 # Workaround for error copying vendor files to recovery ramdisk
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
+
+TW_MAX_BRIGHTNESS := 255
