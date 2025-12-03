@@ -161,7 +161,7 @@ ALLOW_MISSING_DEPENDENCIES := true
 USE_RECOVERY_INSTALLER := true
 RECOVERY_INSTALLER_PATH := bootable/recovery/installer
 TW_EXCLUDE_TWRPAPP := true
-TW_INCLUDE_REPACKTOOLS := true
+TW_INCLUDE_REPACKTOOLS := false
 TW_HAS_EDL_MODE := true
 
 # Workaround for error copying vendor files to recovery ramdisk
