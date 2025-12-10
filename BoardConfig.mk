@@ -13,6 +13,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+TW_EXCLUDE_BASH := true
+TW_EXCLUDE_NANO := true
+TW_EXCLUDE_HTOP := true
+TW_EXCLUDE_TAR := true
+TW_EXCLUDE_TZDATA := true
+TW_EXCLUDE_PYTHON := true
+TW_EXCLUDE_ZIP := true
+TW_EXCLUDE_EMOJI_FONT := true
 
 DEVICE_PATH := device/motorola/ocean
 
@@ -168,3 +176,4 @@ OF_USE_LZMA := 1
 BOARD_RAMDISK_USE_LZMA := true
 TW_EXCLUDE_PYTHON := true
 OF_DISABLE_TREBLE_COMPATIBILITY_CHECK := 1
+
