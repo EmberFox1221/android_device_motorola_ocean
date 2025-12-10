@@ -14,6 +14,10 @@
 # limitations under the License.
 #
 
+FOX_REMOVE_AAPT := true
+FOX_DISABLE_MAGISKBOOT := true
+FOX_DISABLE_MAGISKBOOT_FORCE := true
+FOX_USE_DATA_RECOVERY_FOR_SETTINGS := true
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
