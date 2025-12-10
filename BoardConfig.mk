@@ -13,6 +13,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+TW_EXCLUDE_BASH := true
+TW_EXCLUDE_HTOP := true
+TW_EXCLUDE_TAR := true
+TW_EXCLUDE_TZDATA := true
+TW_EXCLUDE_PYTHON := true
+TW_EXCLUDE_ZIP := true
+TW_EXCLUDE_EMOJI_FONT := true
+
 
 # Inherit from motorola sdm632-common
 -include device/motorola/sdm632-common/BoardConfigCommon.mk
@@ -28,6 +36,7 @@ TARGET_OTA_ASSERT_DEVICE := ocean
 
 # Display
 TARGET_SCREEN_DENSITY := 320
+
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
@@ -48,3 +57,4 @@ PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # inherit from the proprietary version
 include vendor/motorola/ocean/BoardConfigVendor.mk
+
